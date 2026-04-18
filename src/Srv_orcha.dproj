@@ -162,6 +162,10 @@
         <DelphiCompile Include="$(MainSource)">
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
+        <DCCReference Include="OrchaLogging.pas"/>
+        <DCCReference Include="OrchaMetrics.pas"/>
+        <DCCReference Include="OrchaHealth.pas"/>
+        <DCCReference Include="OrchaHttp.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
